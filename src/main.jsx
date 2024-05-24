@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App';
-import Home from './pages/homePage';
-import ErrorPage from './pages/errorPage';
+import Home from './pages/homeAndError/homePage';
+import ErrorPage from './pages/homeAndError/errorPage';
 import Contact from './pages/contact/contact';
 
 const router = createBrowserRouter([
@@ -24,14 +24,6 @@ const router = createBrowserRouter([
     ]
   }
 ])
-
-
-
-
-
-
-
-
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
