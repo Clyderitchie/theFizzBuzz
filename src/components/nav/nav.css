@@ -1,0 +1,28 @@
+#navLayout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+#nav {
+    width: 30%;
+    text-decoration: none; 
+    color: black;
+
+}
+
+#navMe {
+    padding-left: 2%;
+}
+
+#navLinks {
+    width: 25%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+#nav1, #nav2, #nav3 {
+    text-decoration: none;
+    color: black;
+}
