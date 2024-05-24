@@ -1,0 +1,48 @@
+#contactContainer {
+    /* outline: 2px solid red; */
+}
+
+#contactContent {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#contact1 {
+    /* outline: 2px solid green; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact1Info {
+    font-size: larger;
+}
+
+#contactLink1, #contactLink2, #contactLink3 {
+    text-decoration: none;
+    color: black;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 1%;
+}
+
+#contact2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+#contact3 {
+    display: flex;
+    width: 25%;
+    height: 25%;   
+}
+
+#contactPagePic {
+    width: 110%;
+    border-radius: 1%;
+    box-shadow: 5px 5px 5px rgba(194, 193, 193, 0);
+}
