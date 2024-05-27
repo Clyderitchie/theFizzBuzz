@@ -23,7 +23,7 @@ function Welcome() {
             </div>
             <div id='welcomeOSC2'>
                 <div id='welISC2'>
-                    <Link to='/'>
+                    <Link to='/game'>
                         <button id='btn1'>
                             Game
                         </button>
