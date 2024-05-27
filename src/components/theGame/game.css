@@ -1,0 +1,103 @@
+/* 
+    Page:
+        ga: Game
+    
+    Containers:
+        OSC: Outside Container
+    
+    elements: 
+        St: Start
+        btn: Button
+        an: Answers
+        con: Content
+*/
+
+:root {
+
+    /* Margins */
+    --top: 3%;
+    --bottom: 3%;
+}
+
+#gaOSC {
+    padding: 1%;
+}
+
+#gaHead {
+    display: flex;
+    justify-content: center;
+}
+
+#gaStISC {
+    margin-top: var(--top);
+    margin-bottom: var(--bottom);
+    max-width: 45%;
+    min-width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#conOSC {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#gaISC, #gaISC2 {
+    margin-top: var(--top);
+    margin-bottom: var(--bottom);
+    max-width: 45%;
+    min-width: 45%;
+}
+
+#anOSC {
+    display: flex;
+    flex-direction: column;
+}
+
+#numOSC {
+    font-size: larger;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: var(--bottom);
+}
+
+#timer {
+    text-align: center;
+    font-size: larger;
+    margin-top: var(--top);
+    margin-bottom: var(--bottom);
+}
+
+#score {
+    text-align: center;
+    font-size: larger;
+    margin-top: 7%;
+    margin-bottom: var(--bottom);
+}
+
+#gaStBtn,
+#gaNewBtn,
+#btnAn,
+#btnAn1,
+#btnAn2,
+#btnAn3 {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: var(--top);
+}
+
+#gaStBtn:hover,
+#gaNewBtn:hover,
+#btnAn:hover,
+#btnAn1:hover,
+#btnAn2:hover,
+#btnAn3:hover {
+    background-color: #555;
+}
