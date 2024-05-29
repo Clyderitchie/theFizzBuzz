@@ -28,6 +28,16 @@
     justify-content: center;
 }
 
+#garule {
+    padding: 1%;
+}
+
+#gaRuleList {
+    list-style-type: none;
+    font-size: larger;
+    padding: 1%;
+}
+
 #gaStISC {
     margin-top: var(--top);
     margin-bottom: var(--bottom);

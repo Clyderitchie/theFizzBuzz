@@ -25,12 +25,7 @@ function Welcome() {
                 <div id='welISC2'>
                     <Link to='/game'>
                         <button id='btn1'>
-                            Game
-                        </button>
-                    </Link>
-                    <Link to='/'>
-                        <button id='btn2'>
-                            Rules
+                            Play Game
                         </button>
                     </Link>
                 </div>
