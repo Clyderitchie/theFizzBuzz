@@ -16,11 +16,6 @@ function Nav() {
                             </h1>
                         </Link>
                         <div id='navLinks'>
-                            <Link id='nav2' to='/about'>
-                                <h3>
-                                    About
-                                </h3>
-                            </Link>
                             <Link id='nav3' to='/contact'>
                                 <h3>
                                     Contact
